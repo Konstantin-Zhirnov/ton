@@ -29,7 +29,7 @@ export function useMainContract() {
     )
 
     return client.open(contract) as OpenedContract<MainContract>
-  })
+  }, [client])
 
   useEffect(() => {
     async function getValue() {
@@ -66,4 +66,10 @@ export function useMainContract() {
     },
     ...contractData,
   }
+}
+function useMemo(
+  arg0: () => import('ton').TonClient | undefined,
+  arg1: (import('ton').TonClient | undefined)[],
+) {
+  throw new Error('Function not implemented.')
 }
