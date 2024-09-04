@@ -67,9 +67,3 @@ export function useMainContract() {
     ...contractData,
   }
 }
-function useMemo(
-  arg0: () => import('ton').TonClient | undefined,
-  arg1: (import('ton').TonClient | undefined)[],
-) {
-  throw new Error('Function not implemented.')
-}
