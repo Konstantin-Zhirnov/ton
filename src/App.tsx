@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { TonConnectButton } from '@tonconnect/ui-react'
 import { fromNano } from 'ton-core'
 
@@ -11,8 +10,6 @@ function App() {
   const {
     contract_address,
     counter_value,
-    recent_sender,
-    owner_address,
     contract_balance,
     sendIncrement,
     sendDeposit,
@@ -36,11 +33,6 @@ function App() {
               <div className="Hint">{fromNano(contract_balance)}</div>
             </>
           )}
-
-          {/* <b>Recent Sender</b>
-          <div className="Hint">{recent_sender}</div>
-          <b>Owner address</b>
-          <div className="Hint">{owner_address}</div> */}
         </div>
 
         <div className="Card">
