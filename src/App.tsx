@@ -30,7 +30,7 @@ function App() {
           {contract_balance && (
             <>
               <b>Our contract Balance</b>
-              <div className="Hint">{fromNano(contract_balance)}</div>
+              <div>{fromNano(contract_balance)}</div>
             </>
           )}
         </div>
