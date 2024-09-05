@@ -8,7 +8,7 @@
 body {  
   min-width: 320px;
   min-height: 100vh;
-  background-image: url("bg.jpg");
+  background-image: url("/assets/bg.jpg");
   background-size: 50px;
   color: #fafafa;
   overflow-x: hidden;
