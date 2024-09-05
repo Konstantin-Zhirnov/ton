@@ -1,0 +1,26 @@
+.container {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+
+    .btn {
+        background-color: #0098EA;
+        color: #FFFFFF;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.16);
+        padding: 8px 22px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        height: 40px;
+        border: none;
+        border-radius: 100vh;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 510;
+        line-height: 18px;
+        transition: transform 0.125s ease-in-out;
+    }
+}

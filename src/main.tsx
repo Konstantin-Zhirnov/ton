@@ -1,7 +1,9 @@
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
 import { TonConnectUIProvider } from '@tonconnect/ui-react'
+
+import App from './App.tsx'
+
+import './index.css'
 
 const manifestUrl = 'https://konstantin-zhirnov.github.io/ton/tonconnect-manifest.json'
 
